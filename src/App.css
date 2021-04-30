@@ -2,9 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .list{
   list-style: none;
+  display: flex;
 }
 
 .list li{
@@ -13,5 +16,6 @@
   padding: 15px;
   margin: 4px;
   background-color:rgb(211, 211, 211) ;
-  align-self: center;
+  border-radius: 5px;
 }
+

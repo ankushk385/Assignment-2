@@ -32,7 +32,8 @@ function App() {
   return (
     <div className="App">
       <div className="array-list">
-      <h2>list of fruits</h2>
+        <h1>filter through array using lordash library</h1>
+      <h2>Array</h2>
       <ul className="list">
       {
         fruits.map((fruit)=>(
@@ -49,7 +50,7 @@ function App() {
       
       </div>
       
-      <div className="filtered-array">
+      <div className="array-list">
      {filteredArray=="" ? (<h1 style={{textAlign:"center"}}>Nothing to display</h1>) : (
        <>
        <h3 style={{textAlign:"center"}}>filtered array</h3>
